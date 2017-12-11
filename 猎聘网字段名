@@ -1,0 +1,29 @@
+https://www.liepin.com/zhaopin/?key=Python
+
+职位名称   pname        //div[@class="title-info"]/h1/text()
+
+公司名称   company      //div[@class="title-info"]/h3//a/text()
+
+薪资       money        //div[@class="job-title-left"]/p/text()
+
+公司地点   location     //p[@class="basic-infor"]/span/a/text()
+
+学历要求   degree       //div[@class="job-qualifications"]/span[1]/text()
+
+工作时间   year         //div[@class="job-qualifications"]/span[2]/text()
+
+发布时间   date_pub     //p[@class="basic-infor"]/time/text()
+
+语言要求  未定义字段名  //div[@class="job-qualifications"]/span[3]/text()
+年龄要求  未定义字段名  //div[@class="job-qualifications"]/span[4]/text()
+
+类型{全职} ptype        无
+职位标签   tags         无
+
+职业诱惑   advantage    //span[@class="tag"]/text()
+
+职位描述   jobdesc      //div[@class="content content-word"]/text()
+
+工作地址   jobaddr      //*[@class="new-compintro"]/li[3]/text()
+
+图片中alt  company      //*[@class="company-logo"]/a/img/@alt
